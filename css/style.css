@@ -25,7 +25,7 @@ section > .container {
 /* Banner */
 .img-banner {
   position: relative;
-  background-image: url(/images/banner.jpg);
+  background-image: url(../images/banner.jpg);
   width: 100%;
   height: 600px;
   background-size: cover;
@@ -97,22 +97,14 @@ li span {
 
 #pesonal-info {
   padding: 0 200px 80px 30px;
-  /* background-color: white; */
-  /* border-radius: 35px; */
-  /* box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.19); */
+
   font-size: 18px;
   margin-bottom: 30px;
-  /* padding: 40px 30px;
-  background-color: #e7f2f8;
-  border-radius: 25px;
-  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 #target {
   padding: 40px 30px;
-  /* background-color: #e7f2f8; */
-  /* border-radius: 25px; */
-  /* box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.19); */
+
   margin-bottom: 30px;
 }
 
@@ -124,6 +116,7 @@ li span {
   row-gap: 20px;
   align-items: start;
 }
+
 /* kinh nghiệm việc làm */
 .job-box-grid {
   display: grid;
@@ -133,7 +126,6 @@ li span {
   border: 0.5px solid #e7ebec;
   align-items: center;
   padding: 24px;
-  /* box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .job-content {
@@ -180,16 +172,11 @@ li span {
   border-radius: 50%;
 }
 .rounding {
-  /* width: 70px;
-  height: 70px; */
   color: rgb(62, 206, 206);
   border: 2px solid rgb(57, 181, 181);
-  padding: 10px;
+  padding: 13px;
   border-radius: 50%;
-  margin-right: 30px;
-  margin-left: 5px;
-
-  /* margin-bottom: 0.5rem; */
+  margin-right: 20px;
 }
 /* Ngôn ngữ */
 .good {
@@ -301,7 +288,7 @@ a:active {
 /* nâng cao */
 .avt-default {
   height: 250px;
-  width: 200px;
+  width: 250px;
   border-radius: 50%;
   background-color: #ffff;
   border: 4px solid #b7b3a9;
@@ -311,10 +298,7 @@ a:active {
 .avt-banner {
   position: absolute;
   display: inline-block;
-  bottom: -200px; /* dành cho máy tính câycây */
-  /* bottom: -180px; dành cho máy tính latoplatop */
+  bottom: -200px;
   right: 50%;
   transform: translate(50%, -50%);
 }
-/* border: 2px solid #b7b3a9;
-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.19); */
