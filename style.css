@@ -1,0 +1,62 @@
+/* Đảm bảo nội dung trang đẩy footer xuống dưới */
+main {
+  flex-grow: 1;
+}
+
+.site-footer {
+  background-color: #f0f0f0; /* Màu nền xám nhạt tương tự hình ảnh */
+  color: #555; /*Màu chữ xám */
+  padding: 20px 0; /* Khoảng đệm trên dưới */
+  text-align: center; /* Căn giữa nội dung footer */
+  font-size: 0.9em; /* Kích thước font nhỏ hơn một chút */
+  margin-top: auto; /* Đẩy footer xuống cuối trang */
+}
+
+.footer-content {
+  max-width: 1200px; /* Chiều rộng tối đa của nội dung footer */
+  margin: 0 auto; /* Căn giữa nội dung footer */
+  display: flex; /* Sử dụng flexbox để căn chỉnh các mục */
+  justify-content: space-between; /* Đẩy các mục về hai phía */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  padding: 0 20px; /* Khoảng đệm trái phải */
+}
+
+.footer-link {
+  color: #007bff; /* Màu xanh cho liên kết */
+  text-decoration: none; /* Bỏ gạch chân mặc định của liên kết */
+  margin: 0 5px; /* Khoảng cách giữa các liên kết */
+}
+
+.footer-link:hover {
+  text-decoration: underline; /* Gạch chân khi di chuột qua */
+}
+
+.back-to-top {
+  color: #007bff; /* Màu xanh cho liên kết "Back to top" */
+  text-decoration: none; /* Bỏ gạch chân mặc định */
+}
+
+.back-to-top:hover {
+  text-decoration: underline; /* Gạch chân khi di chuột qua */
+}
+
+/* Thêm một ID cho phần tử đầu trang để liên kết "Back to top" hoạt động */
+body::before {
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Sử dụng ID để liên kết "Back to top" hoạt động */
+#top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
